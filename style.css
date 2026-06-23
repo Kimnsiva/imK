@@ -1088,20 +1088,23 @@ img {
    ============================================ */
 .desktop-nav {
   display: flex;
-  gap: 28px;
+  gap: 40px;
   align-items: center;
 }
 
 .desktop-nav a {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 500;
   color: #555;
   text-decoration: none;
-  transition: color 0.2s ease;
+  transition: all 0.2s ease;
+  padding: 8px 16px;
+  border-radius: 8px;
 }
 
 .desktop-nav a:hover {
   color: #121212;
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 /* ============================================
