@@ -1253,6 +1253,21 @@ img {
   .carousel-wrapper {
     padding: 0 20px;
   }
+  .carousel-header {
+    padding: 32px 0 16px 0;
+    align-items: center;
+    text-align: center;
+  }
+  .carousel-header h3 {
+    font-size: 28px;
+  }
+  .certSwiper .swiper-slide {
+    width: 260px;
+  }
+  .certSwiper .swiper-slide .cert-card-inner {
+    height: 300px;
+    padding: 24px 20px;
+  }
 
   /* Work grid - stack 1 per row on mobile */
   .work-grid {
