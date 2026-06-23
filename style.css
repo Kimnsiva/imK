@@ -1088,7 +1088,6 @@ img {
    ============================================ */
 .desktop-nav {
   display: flex;
-  gap: 40px;
   align-items: center;
 }
 
@@ -1100,6 +1099,11 @@ img {
   transition: all 0.2s ease;
   padding: 8px 16px;
   border-radius: 8px;
+  margin-right: 20px; /* Fallback for browsers that don't support gap */
+}
+
+.desktop-nav a:last-child {
+  margin-right: 0;
 }
 
 .desktop-nav a:hover {
